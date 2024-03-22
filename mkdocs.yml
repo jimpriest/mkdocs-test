@@ -43,8 +43,8 @@ theme:
 
 nav:
   - Home: index.md
-  # - What is This?:
-  #     - introduction.md
+  - What is This?:
+      - introduction.md
   # - Getting Started:
   #     - getting-started.md
   # - Using FOO:
