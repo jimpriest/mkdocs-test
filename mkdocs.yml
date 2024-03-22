@@ -43,26 +43,26 @@ theme:
 
 nav:
   - Home: index.md
-  - What is This?:
-      - introduction.md
-  # - Getting Started:
-  #     - getting-started.md
-  # - Using FOO:
-  #     - using/index.md
-  #     - Configuration: configuration.md
-  # - How-to:
-  #     - Apply Stable FOO State: how-to/apply-stable-FOO-state.md
-  # - Contributing:
-  #     - Developing: contributing/development.md
-  #     - Adding a new service: contributing/adding-a-service.md
-  #     - Testing: contributing/testing.md
-  #     - Releasing: contributing/releasing.md
-  #     - to Documentation: contributing/documentation.md
-  # - Troubleshooting:
-  #     - Getting Help: troubleshooting/getting-help.md
-  #     - Connectivity: troubleshooting/connectivity.md
-  #     - Health Checks: troubleshooting/health-checks.md
-
+  - Contributing:
+      - contributing.md
+      - Style Guide: code/styleGuide.md
+      - Framework One: code/frameworkOne.md
+      - Production Environment: production.md
+      - Deployments: deployment.md
+  - Firechief:
+      - firechief.md
+  - cron:
+      - HostTotals.md
+  - Services Used:
+      - Avalara: services/avalara.md
+      - Braintree: services/braintree.md
+      - rbac: services/rbac.md
+  - Tailwind:
+      - Components: tailwind/components.md
+  - Testing: 
+      - Jenkins: testing/jenkinsPipeline.md
+      - Playwright: testing/jenkinsPipelineUIE2E.md
+      - Testbos: testing/testing.md
 plugins:
   - search
   - git-revision-date-localized
