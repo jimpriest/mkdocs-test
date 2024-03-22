@@ -1,0 +1,81 @@
+site_name: mkDocs Test
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
+theme:
+  name: material
+  logo: images/logo.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - content.action.edit
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+
+nav:
+  - Home: index.md
+  # - What is This?:
+  #     - introduction.md
+  # - Getting Started:
+  #     - getting-started.md
+  # - Using FOO:
+  #     - using/index.md
+  #     - Configuration: configuration.md
+  # - How-to:
+  #     - Apply Stable FOO State: how-to/apply-stable-FOO-state.md
+  # - Contributing:
+  #     - Developing: contributing/development.md
+  #     - Adding a new service: contributing/adding-a-service.md
+  #     - Testing: contributing/testing.md
+  #     - Releasing: contributing/releasing.md
+  #     - to Documentation: contributing/documentation.md
+  # - Troubleshooting:
+  #     - Getting Help: troubleshooting/getting-help.md
+  #     - Connectivity: troubleshooting/connectivity.md
+  #     - Health Checks: troubleshooting/health-checks.md
+
+plugins:
+  - search
+  - git-revision-date-localized
+  # - redirects:
+  #     redirect_maps:
+  #       "development.md": "contributing/development.md"
+  #       "docs.md": "contributing/documentation.md"
+
+repo_url: https://github.com/jimpriest/mkdocs-test/
+repo_name: thecrumb
+edit_uri: edit/main/docs/
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
