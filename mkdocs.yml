@@ -41,6 +41,8 @@ theme:
     - search.highlight
     - search.share
 
+ # Note: paths are case sensitive!
+
 nav:
   - Home: index.md
   - Contributing:
@@ -50,7 +52,7 @@ nav:
       - Production Environment: code/production.md
       - Deployments: code/deployment.md
   - Firechief:
-      - firechief.md
+      - fireChief.md
   - cron:
       - crons/HostTotals.md
   - Services Used:
@@ -61,6 +63,7 @@ nav:
       - About: tailwind/index.md
       - Components: tailwind/components.md
   - Testing: 
+      - About: testing/index.md
       - Jenkins: testing/jenkinsPipeline.md
       - Playwright: testing/jenkinsPipelineUIE2E.md
       - Testbos: testing/testing.md
