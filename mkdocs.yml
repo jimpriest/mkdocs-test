@@ -47,17 +47,18 @@ nav:
       - contributing.md
       - Style Guide: code/styleGuide.md
       - Framework One: code/frameworkOne.md
-      - Production Environment: production.md
-      - Deployments: deployment.md
+      - Production Environment: code/production.md
+      - Deployments: code/deployment.md
   - Firechief:
       - firechief.md
   - cron:
-      - HostTotals.md
+      - crons/HostTotals.md
   - Services Used:
       - Avalara: services/avalara.md
       - Braintree: services/braintree.md
       - rbac: services/rbac.md
   - Tailwind:
+      - About: tailwind/index.md
       - Components: tailwind/components.md
   - Testing: 
       - Jenkins: testing/jenkinsPipeline.md

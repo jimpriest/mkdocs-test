@@ -1,6 +1,5 @@
 # TailwindCSS Components
 
-- [Introduction](intro.md)
 - [Components](#components)
 	
 
