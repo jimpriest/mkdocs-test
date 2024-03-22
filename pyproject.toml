@@ -1,0 +1,13 @@
+[project]
+name = "mkDocs Test"
+dynamic = ["version"]
+description = "Testing mkDocs for documentation"
+requires-python = ">=3.8"
+
+
+[project.optional-dependencies]
+docs = [
+  "mkdocs-material>=9.1.14",
+  "mkdocs-redirects>=1.2.0",
+  "mkdocs-git-revision-date-localized-plugin>=1.2.0",
+]
